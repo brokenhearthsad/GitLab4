@@ -23,5 +23,19 @@ namespace GitLab4
         {
             Owner.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(textBox1.Text, out double a) &&
+                double.TryParse(textBox2.Text, out double b))
+                label2.Text = "Сумма: " + (a + b);
+            else
+                label2.Text = "Введите числа";
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
