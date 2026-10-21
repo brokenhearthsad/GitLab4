@@ -8,7 +8,7 @@ namespace GitLab4
         public Form1()
         {
             InitializeComponent();
-            this.Text = "Главная";
+            this.Text = "Главное окно";
         }
 
         private void button1_Click(object sender, EventArgs e)
